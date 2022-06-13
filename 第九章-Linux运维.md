@@ -20,7 +20,7 @@ crontab
 
 ![img_64.png](img_64.png)   
 ![img_65.png](img_65.png)   
-2. 一次性定时任务  
+2. 一次性定时任务   
 
 at  安排普通的一次性定时任务   
 
