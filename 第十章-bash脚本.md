@@ -82,7 +82,12 @@ done
 
 5.![img_111.png](img_111.png)    
 ```shell
-
-
-
+#!/bin/bash 
+total=1
+for (( i=1; i<10; i++)) 
+do
+  [ $[ $i % 2] -eq  0 ] && continue
+  total=$[$total * $i]
+done
+  echo $total
 ```
