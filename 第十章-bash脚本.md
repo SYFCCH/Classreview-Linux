@@ -107,7 +107,7 @@ done
 2. ![img_114.png](img_114.png)   
 ```shell 
 #!/bin/bash
-filename=$(ls -l | grep "^user" | awk '{print $9}')
+filename=$(ls -l /home | grep "^user" | awk '{print $9}')
 for file in filename 
 do
 userdel -rf $file 
