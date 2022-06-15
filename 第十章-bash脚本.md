@@ -141,7 +141,17 @@ fi
 
 5. ![img_117.png](img_117.png)  
 ```shell
-
+#!/bin/bash
+while :
+do
+  if who | grep -qw $1
+  then 
+    echo  ""
+  else 
+    echo  ""
+  fi 
+  sleep 300
+done
 ```
 
 
