@@ -91,3 +91,57 @@ do
 done
   echo $total
 ```
+
+1. ![img_113.png](img_113.png)   
+```shell
+#!/bin/bash 
+user=user
+for i in {1..20} 
+do 
+  name="${user}${i}"
+  useradd $name
+done   
+```
+
+
+2. ![img_114.png](img_114.png)   
+```shell 
+#!/bin/bash
+filename=$(ls -l | grep "user" | awk '{print $9}')
+for file in filename 
+do
+userdel -rf $file 
+done  
+```
+
+3. ![img_115.png](img_115.png)   
+```shell
+
+
+
+
+```
+
+
+
+
+4. ![img_116.png](img_116.png)   
+```shell
+
+
+```
+
+
+5. ![img_117.png](img_117.png)  
+```shell
+
+```
+
+
+6. ![img_118.png](img_118.png)   
+```shell
+
+
+
+
+```
