@@ -116,9 +116,15 @@ done
 
 3. ![img_115.png](img_115.png)   
 ```shell
-
-
-
+#!/bin/bash
+dir=$1
+if [ -d $dir] 
+then
+  cd $dir
+  for file in * 
+  do
+    if [-f $file] 
+    then echo ${}
 
 ```
 
