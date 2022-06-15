@@ -124,11 +124,12 @@ then
   for file in * 
   do
     if [-f $file] 
-    then echo ${}
-
+    then echo "文件：${dir}${file}"
+    fi 
+  done
+else echo "错误的目录名信息"
+fi  
 ```
-
-
 
 
 4. ![img_116.png](img_116.png)   
